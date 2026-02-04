@@ -1,6 +1,6 @@
 
 import type { JSX } from 'react/jsx-dev-runtime';
-
+import { Link } from 'react-router';
 const Navbar = () : JSX.Element => {
     return( 
         <nav className='navbar'>
@@ -8,7 +8,7 @@ const Navbar = () : JSX.Element => {
                 <p className='text-exl font-bold text-gradient'
                 >Resumind</p>
             </Link>
-            <Link to='/upload' className='primary-button w-fill'>
+            <Link to='/upload' className='primary-button max-w-fit'>
                 Upload Resume 
             </Link>
 
